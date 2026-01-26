@@ -1,0 +1,8 @@
+title: "Shopping AI: Predictive Brand Intelligence (PBI)"
+description: Strategic Portfolio
+baseurl: "/Project-Case-Studies" # Ensure this matches your repo name exactly
+url: "https://pmoksana.github.io"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
