@@ -1,9 +1,28 @@
 ---
 ---
-@import "minima";
+/* Заменяем @import "minima" на прямой импорт стилей темы */
+@import "minima/initialize";
+@import "minima/base";
+@import "minima/layout";
+@import "minima/custom-styles";
 
+/* Ваш "воздух" и кастомные правки */
 .wrapper {
-  max-width: 800px !important;
+  max-width: 850px !important;
   margin: 0 auto !important;
-  padding: 40px 20px !important;
+  padding: 50px 25px !important;
+}
+
+.site-header {
+  background-color: #00364d !important; /* Navy */
+  border-top: 5px solid #ff3621 !important; /* Orange */
+}
+
+.site-title, .site-nav .page-link {
+  color: #ffffff !important;
+}
+
+body {
+  line-height: 1.8;
+  font-size: 17px;
 }

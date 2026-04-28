@@ -1,7 +1,6 @@
 
 ---
 layout: default
-title: SAFe Migration Project
 ---
 
 ## 1. Coordinating Sprints, Events, and Dependencies
