@@ -1,3 +1,9 @@
+---
+layout: default
+title: Sсrum of Scrum
+---
+
+
 # Beyond the Meeting: The Scrum Master’s Post-SoS Action Plan
 
 The **Scrum of Scrums (SoS)** is the Daily Stand-up" for the entire program." While the meeting identifies the issues, your real work begins the moment the call ends. 

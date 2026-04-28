@@ -1,10 +1,5 @@
 title: SAFe Migration Project
 description: Detailed guide and playbooks for SAFe transformation
-theme: minima
-
-# Настройки оформления
-minima:
-  skin: light
-
-# Исключаем лишнее, чтобы сборка не ломалась
-exclude: [node_modules, vendor]
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-remote-theme

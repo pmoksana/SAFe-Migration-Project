@@ -1,4 +1,10 @@
-# 🤝 The Social Contract: Working Agreements for Scaled Mobile Teams
+---
+layout: default
+title: Team-to-Team OLA
+---
+
+
+# The Social Contract: Working Agreements for Scaled Mobile Teams
 
 A **Working Agreement (WA)** is a social contract that defines how teams interact to prevent friction. In SAFe, these are often referred to as **Team-to-Team OLA** (Operating Level Agreements).
 

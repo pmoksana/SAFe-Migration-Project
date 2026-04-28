@@ -1,3 +1,7 @@
+---
+layout: default
+title: SAFe Migration Project
+---
 
 ## 1. Coordinating Sprints, Events, and Dependencies
 **The Goal:** Facilitating seamless alignment across distributed teams.

@@ -1,4 +1,9 @@
-# 🛡️ Scrum Master Scaled Events Playbook
+---
+layout: default
+title: Scrum Master Scaled Events Playbook
+---
+
+#  Scrum Master Scaled Events Playbook
 > **Environment:** SAFe / Nexus  
 > **Focus:** Mobile (iOS/Android) & React Native Migration Projects
 
