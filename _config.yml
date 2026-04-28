@@ -1,4 +1,3 @@
 title: SAFe Migration Project
 description: Detailed guide and playbooks for SAFe transformation
-# Оставляем пустую тему, чтобы работал только наш кастомный CSS
-theme:
+theme: jekyll-theme-cayman
