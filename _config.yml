@@ -1,7 +1,14 @@
 title: SAFe Migration Project
+remote_theme: jekyll/minima
 description: Detailed guide and playbooks for SAFe transformation
-theme: jekyll-theme-cayman
 
-# Указываем путь к вашему кастомному CSS
-sass:
-  style: :compressed
+# Настройки для "воздуха" и стиля как в Agile-Center-of-Excellence
+minima:
+  skin: light
+  social_links:
+    - { platform: github, user: pmoksana }
+
+# Это заставит GitHub использовать тему Minima правильно
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
