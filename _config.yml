@@ -1,5 +1,3 @@
-title: SAFe Migration Project
 remote_theme: jekyll/minima
-description: Detailed guide and playbooks for SAFe transformation
 plugins:
   - jekyll-remote-theme
