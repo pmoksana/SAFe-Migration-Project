@@ -2,27 +2,19 @@
 ---
 @import "minima";
 
-/* Контейнер для воздуха по бокам */
+/* Форсируем отступы, если тема капризничает */
 .wrapper {
-  max-width: 800px !important; 
-  padding-right: 30px !important;
-  padding-left: 30px !important;
+  max-width: 800px !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  padding: 50px 20px !important;
 }
 
-/* Ваши фирменные цвета как в Databricks */
 .site-header {
-  background-color: #00364d !important; /* Тот самый Navy */
-  border-top: 5px solid #ff3621 !important; /* Тот самый Orange */
+  background-color: #00364d !important;
+  border-top: 5px solid #ff3621 !important;
 }
 
 .site-title, .site-nav .page-link {
   color: #ffffff !important;
-}
-
-/* Улучшаем читаемость */
-body {
-  line-height: 1.8;
-  font-size: 18px;
-}dy {
-  line-height: 1.8;
 }
