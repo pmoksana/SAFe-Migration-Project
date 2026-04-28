@@ -2,19 +2,8 @@
 ---
 @import "minima";
 
-/* Форсируем отступы, если тема капризничает */
 .wrapper {
   max-width: 800px !important;
-  margin-right: auto !important;
-  margin-left: auto !important;
-  padding: 50px 20px !important;
-}
-
-.site-header {
-  background-color: #00364d !important;
-  border-top: 5px solid #ff3621 !important;
-}
-
-.site-title, .site-nav .page-link {
-  color: #ffffff !important;
+  margin: 0 auto !important;
+  padding: 40px 20px !important;
 }
