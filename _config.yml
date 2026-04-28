@@ -1,8 +1,7 @@
-title: "Shopping AI: Predictive Brand Intelligence (PBI)"
-description: Strategic Portfolio
-baseurl: "/Project-Case-Studies" # Ensure this matches your repo name exactly
-url: "https://pmoksana.github.io"
+title: SAFe Migration Project
+description: Detailed guide and playbooks for SAFe transformation
+theme: jekyll-theme-cayman
 
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+# Указываем путь к вашему кастомному CSS
+sass:
+  style: :compressed
