@@ -1,28 +1,43 @@
 ---
 ---
-/* Заменяем @import "minima" на прямой импорт стилей темы */
-@import "minima/initialize";
-@import "minima/base";
-@import "minima/layout";
-@import "minima/custom-styles";
-
-/* Ваш "воздух" и кастомные правки */
-.wrapper {
-  max-width: 850px !important;
-  margin: 0 auto !important;
-  padding: 50px 25px !important;
-}
-
-.site-header {
-  background-color: #00364d !important; /* Navy */
-  border-top: 5px solid #ff3621 !important; /* Orange */
-}
-
-.site-title, .site-nav .page-link {
-  color: #ffffff !important;
-}
+/* Мы НЕ используем @import, чтобы избежать конфликтов с переменными темы */
 
 body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 18px;
   line-height: 1.8;
-  font-size: 17px;
+  color: #1b3139;
+  margin: 0;
+}
+
+/* Создаем "воздух" как в Agile-Center-of-Excellence */
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 30px;
+}
+
+/* Стили шапки (Navy + Orange) */
+.site-header {
+  background-color: #00364d !important;
+  border-top: 5px solid #ff3621 !important;
+  min-height: 56px;
+}
+
+.site-title {
+  color: #fff !important;
+  font-size: 1.6rem;
+  line-height: 56px;
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+/* Оформление ссылок */
+a {
+  color: #ff3621;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
