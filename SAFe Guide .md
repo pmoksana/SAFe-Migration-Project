@@ -128,3 +128,42 @@ Action: SM facilitate a Prioritization Matrix with the PO and Client. SM show th
 
 ---
 
+
+
+
+# Navigating Scaled Agile: A Guide to Mobile Migration
+> **Frameworks in Focus:** SAFe & Nexus  
+> **The Mission:** Transitioning from Native (Swift/Java) to React Native at Scale.
+
+---
+SM Role 
+## 1. Coordinating Sprints, Events, and Dependencies
+**The Goal:** Facilitating seamless alignment across distributed teams.
+
+###  The Technique
+*   **SAFe (Scrum of Scrums):** Facilitating bi-weekly or daily SoS meetings to resolve cross-team dependencies.
+*   **Nexus (Nexus Daily Scrum):** Team representatives meet with the Nexus Integration Team to ensure iOS/Android sub-teams aren't blocking the **Integrated Increment.**
+
+###  Real-World Challenges
+> [!IMPORTANT]
+> **Challenge I: The BE Bottleneck**  
+> *Problem:* Backend APIs are delayed while Mobile teams are ready.  
+> **Action:** Negotiated **Mock API Contracts**. During the SoS, raised a "Risk." Negotiated a "Mock" contract so devs could continue building in React Native while the BE caught up.
+
+> [!WARNING]
+> **Challenge II: The Platform Split**  
+> *Problem:* iOS and Android teams are out of sync on features.  
+> **Action:** **Synchronized Sprint Starts**. Enforced a shared Sprint Goal. Used Nexus Integration concepts to ensure both platforms merge code into a single **Release Candidate** by the end of the sprint.
+
+---
+
+## 2. Removing Impediments & Barriers
+At scale, impediments shift from local issues to systemic "Platform Blockers."
+
+### 🛡 The Scrum Master as a Shield
+*   **External Dependencies:** The legacy "Identity Provider" was unstable, stalling the React Native migration.
+    *   **Action:** Established a **Service Level Agreement (SLA)** with the Legacy Team manager to prioritize critical bug fixes.
+*   **Hardware Shortages:** The iOS team lacked powerful MacBooks to run heavy React Native builds.
+    *   **Action:** Escalated to the **RTE (Release Train Engineer)** in SAFe, demonstrating the **Cost of Delay** (e.g., "We are losing 10 hours of dev time per week").
+
+---

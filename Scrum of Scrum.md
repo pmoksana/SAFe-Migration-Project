@@ -6,12 +6,13 @@ title: Sсrum of Scrum
 
 # Beyond the Meeting: The Scrum Master’s Post-SoS Action Plan
 
-The **Scrum of Scrums (SoS)** is the Daily Stand-up" for the entire program." While the meeting identifies the issues, your real work begins the moment the call ends. 
+The **Scrum of Scrums (SoS)** is the Daily Stand-up" for the entire program." While the meeting identifies the issues, our real work begins the moment the call ends. 
 
 ---
 
 ##  The Pulse: Daily vs. Bi-Weekly SoS
-The frequency of your SoS depends entirely on your project's "heat level."
+The frequency of our
+ SoS depends entirely on our project's "heat level."
 
 * **Daily SoS:** Crucial during high-intensity phases (e.g., a **Platform Migration**). Things change hour-by-hour; this prevents teams from building conflicting features that break the integration.
 * **Bi-weekly SoS:** Best for mature, independent teams. It serves as a checkpoint for alignment on the **Sprint Goal** and long-term milestones.
@@ -22,8 +23,8 @@ The frequency of your SoS depends entirely on your project's "heat level."
 
 Don't let information die in the meeting room. Follow these five steps to ensure execution:
 
-### 1. The "Information Radiator" (Update Your Team)
-**Action:** Share takeaways in your next Team Daily Stand-up.
+### 1. The "Information Radiator" (Update our Team)
+**Action:** Share takeaways in my next Team Daily Stand-up.
 * *What to say:* "The Backend team is delayed on the API endpoint for our React Native login. We need to adjust our plan for Thursday."
 * *Why:* Prevents developers from being blindsided by external delays.
 
@@ -32,10 +33,10 @@ Don't let information die in the meeting room. Follow these five steps to ensure
 * *Execution:* Send a quick message: "Hey [Dev A] and [Dev B], you both discussed this in the SoS—please sync for 15 minutes today to agree on the interface."
 
 ### 3. Update the Risk/Dependency Board
-**Action:** Synchronize your digital/physical boards (Jira Align, Miro, etc.).
+**Action:** Synchronize our digital/physical boards (Jira Align, Miro, etc.).
 * *Execution:* Move the dependency status from "Requested" to "In Progress" or "Blocked." Add new risks to the program board immediately.
 
-### 4. Protect Your Team's Focus
+### 4. Protect my Team's Focus
 **Action:** Act as the filter for "favor" requests from other teams.
 * *The Pitch:* "My team is committed to the React Native migration goal. Can we deliver this next sprint, or should we ask the PO to reprioritize the backlog?"
 
@@ -45,7 +46,7 @@ Don't let information die in the meeting room. Follow these five steps to ensure
 
 ---
 
-## 🧪 Real-World Scenario: The Migration Case
+##№№ >>Challenge: The Migration Case
 **The Situation:** You are migrating to React Native. In the SoS, the iOS team reports a critical bug in the **Biometrics Bridge**.
 
 | Step | Action |
@@ -59,4 +60,4 @@ Don't let information die in the meeting room. Follow these five steps to ensure
 
 > **The Bottom Line:** After the SoS, you stop being a "facilitator" and start being an **Impediment Remover** and **Connector.** ---
 ### Quick Question for the Reader:
-Does your team use a specific tool like **Jira, Azure DevOps, or a Miro board** to track these cross-team dependencies, or do you find a physical whiteboard works better for your flow?
+Does our team use a specific tool like **Jira, Azure DevOps, or a Miro board** to track these cross-team dependencies, or do you find a physical whiteboard works better for our flow?
